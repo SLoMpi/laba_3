@@ -25,6 +25,7 @@ std::vector<T> generate_random_vector(std::size_t num, T min = -10, T max = 10)
 
 
 int main() {
+    setlocale(LC_ALL, "RUS");
     while (true) {
         int d;
         cout<< "Выберите задание:\n"
